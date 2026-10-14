@@ -1,0 +1,85 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/ca/55/0b/ca550b01d5b66dacd10e3ae06af30b16.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 500px;
+    font-weight: 700;
+    color: #3b201d;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 6px rgba(255, 240, 220, 0.8);
+
+
+}
+
+
+h1 {
+    margin: 3px 0;
+}
+
+.vintage-card {
+    width: 20rem !important;
+    height: 480px !important;
+    /* طول ثابت وموحد لكل الكاردات عشان متكونش فيه واحدة صغيرة */
+    background-color: #f7f1e5 !important;
+    border: 1px solid #c8b69f !important;
+    border-radius: 12px !important;
+    overflow: hidden;
+    margin-bottom: 25px;
+    box-shadow: 0 12px 30px rgba(59, 32, 29, 0.35), 0 5px 12px rgba(0, 0, 0, 0.15) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vintage-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(59, 32, 29, 0.45), 0 8px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Fixed Image Height to keep cards uniform */
+.fixed-img {
+    height: 200px !important;
+    object-fit: cover !important;
+}
+
+/* Styling for empty image placeholders */
+.empty-img[src=""] {
+    background-color: #e3d5c1;
+    border-bottom: 1px solid #c8b69f;
+}
+
+.card-title {
+    font-family: 'Jim Nightshade', cursive;
+    color: #3b201d;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #4a3531;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+/* Buttons color matching the vintage theme */
+.btn-primary {
+    background-color: #5c4033 !important;
+    border-color: #3b201d !important;
+    color: #fdfbf7 !important;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #3b201d !important;
+    border-color: #241311 !important;
+}
